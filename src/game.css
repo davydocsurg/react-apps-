@@ -1,0 +1,21 @@
+.square {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+}
+
+@media screen and (max-width: 427px) and (min-width: 278px){
+  .square{
+    width: 50px;
+    height: 50px;
+    text-align: center !important;
+  }
+}
+
+@media screen and (max-width: 277px){
+  .square{
+    width: 33px;
+    height: 33px;
+    text-align: center !important;
+  }
+}

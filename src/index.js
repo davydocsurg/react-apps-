@@ -1,15 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
-import "./bootstrap.min.css";
-import Counter from "./components/counter";
-// import Tic from "./tic-tac-toe/Tic";
+import "bootstrap/dist/css/bootstrap.css";
+import "./game.css";
+import "./css/all.css";
+// import Board from "./components/Board";
+import Game from "./components/Game";
+
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Counter />
-    {/* <Tic /> */}
+    <div className="container ">
+      <Game className="" />
+    </div>
   </React.StrictMode>,
   document.getElementById("root")
 );
